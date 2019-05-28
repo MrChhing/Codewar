@@ -1,0 +1,12 @@
+1. function getEvenNumbers(num){
+  // filter out the odd numbers
+ return num.filter(value=>{if(value%2==0)return value})
+ }
+
+
+
+2. function getEvenNumbers(numbersArray){
+  // filter out the odd numbers
+  return numbersArray.filter(function(n){
+  return n%2==0})
+  }
