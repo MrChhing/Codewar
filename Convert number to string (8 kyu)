@@ -1,0 +1,25 @@
+Convert a Number to a String!
+JavaScript:
+function numberToString(num) {
+  // Return a string of the number here!
+ return num.toString()
+}
+***********************************************************
+Python:
+def number_to_string(num):
+    # Return a string of the number here!
+    return str(num)
+***********************************************************
+Kotlin:
+fun numberToString(num: Int): String {
+  // code here
+  return num.toString()
+}
+***********************************************************
+Java:
+class Kata {
+  public static String numberToString(int num) {
+    // Return a string of the number here!
+    return Integer.toString(num);
+  }
+}
